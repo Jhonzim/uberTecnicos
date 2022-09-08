@@ -1,5 +1,5 @@
 <?php
-    $pobre = 10 + 10
+    $total = 10 + 10
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -13,9 +13,9 @@
 <body>
 <a href="./pag2.html">
     <?php
-        echo "$pobre"
+        echo "<h1>$total</h1>"
     ?>
 </a>
-    <h1>Fala Cambada! Seus corno manso</h1>    
+    <h2>Fala Cambada! Palestra de IA</h2>    
 </body>
 </html>
