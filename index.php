@@ -1,3 +1,6 @@
+<?php
+    $pobre = 10 + 10
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,6 +11,9 @@
     <title>Document</title>
 </head>
 <body>
+<?php
+    echo "$pobre"
+?>
     <h1>Fala Cambada!</h1>    
 </body>
 </html>
