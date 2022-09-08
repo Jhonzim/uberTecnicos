@@ -14,6 +14,6 @@
 <?php
     echo "$pobre"
 ?>
-    <h1>Fala Cambada!</h1>    
+    <h1>Fala Cambada! Seus corno manso</h1>    
 </body>
 </html>
