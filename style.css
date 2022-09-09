@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: hex(084d6e);
 }
-a{
+a:link, a:visited{
     text-decoration: none;
     color: black;
 }
-h1{
-    color: green;
+a:hover{    
+    font-weight: bold;
 }
-@font-face {
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
+  }
+  @font-face {
     font-family: Bartes;
     src: url(/fonts/Bartes.ttf);
 }
@@ -18,23 +24,59 @@ h1{
     font-family: Birds;
     src: url(/fonts/Birds.ttf);
 }
+@font-face {
+    font-family: Ruritania;
+    src: url(/fonts/Ruritania.ttf);
+}
+@font-face {
+    font-family: marola;
+    src: url(/fonts/marola.TTF);
+}
+h1{
+    font-family: Roboto;
+    
+    font-size:60px;
+    color: green;
+}
+h2{
+    font-family: Pacifico;
+    font-style: italic;
+    font-size:30px;
+}
+
+
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(222, 245, 245);
-    border-bottom: 1px solid rgb(200, 200, 200);
     align-items: center;
     padding: 5px 10px;
 }
 .titulo_geral{
+    font-family: Bartes;
     display: flex;
 }
 .titulo_geral a{
+    font-family: Birds;
     align-self: center;
     margin-right: 10px;
 }
 .header a{
     padding-right: 10px;
-
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
 }
 
+.flex-container > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.main {
+    text-align: left;
+}
