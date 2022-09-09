@@ -1,3 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 h1{
     color: green;
 }
+@font-face {
+    font-family: Bartes;
+    src: url(/fonts/Bartes.ttf);
+}
+@font-face {
+    font-family: Birds;
+    src: url(/fonts/Birds.ttf);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(222, 245, 245);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    align-items: center;
+    padding: 5px 10px;
+}
+.titulo_geral{
+    display: flex;
+}
+.titulo_geral a{
+    align-self: center;
+    margin-right: 10px;
+}
+.header a{
+    padding-right: 10px;
+
+}
+
