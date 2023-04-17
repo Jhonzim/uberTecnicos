@@ -61,7 +61,6 @@ ALTER TABLE `Categoria_servico`
 ALTER TABLE `Servico`
   ADD PRIMARY KEY (`Numero`);
 
-
 ALTER TABLE `Tecnico`
   ADD PRIMARY KEY (`ID`);
 

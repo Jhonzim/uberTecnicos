@@ -3,7 +3,7 @@
         session_start();
     }
     if (isset($_SESSION["user_id"]) || isset($_SESSION["tec_id"])) {
-        header("Location: logado.php");
+        header("Location: index.php");
         die();
     }
     include("funcoes.php");
