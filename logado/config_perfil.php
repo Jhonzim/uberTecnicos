@@ -138,7 +138,7 @@
                         }else{
                             echo '<label for="img-perfil"><img src="../upload/semimagem.png" alt=""></label>
                             <input type="file" name="imagem" id="img-perfil">';
-                        }  
+                        }
                     ?>
                 </div>
                 <div class="inputs-update">
