@@ -127,7 +127,6 @@
         <div class="title">
             <h1>Detalhes do perfil</h1>
             <h2>Editar perfil</h2>
-            kkk
         </div>
         <div>
             <form action="" method="post" id="form-perfil" enctype="multipart/form-data">
